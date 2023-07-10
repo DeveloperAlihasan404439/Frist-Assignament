@@ -3,12 +3,15 @@
     padding: 0;
     outline: 0;
 }
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+/* header section style pat  */
 header{
     background-color: #FCEEF1;
 }
 .banner{
-    max-width: 90%;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,4 +46,71 @@ header{
 .images > img{
     width: 400px;
     height: 500px;
+}
+/* main section flowers pat  */
+.flower-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.flower-text> h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.flowers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.flower-one{
+    background-color: #F2DEE7;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-one> img{
+    width: 300px;
+    height: 400px;
+}
+.flower-tow{
+    background-color: #D9EFF1;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-tow> img{
+    width: 300px;
+    height: 350px;
+}
+
+.flower-three{
+    background-color: #E3EBDB;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-three> img{
+    width: 300px;
+    height: 400px;
+}
+.link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.link> span{
+    border-bottom: 1px solid black;
 }
