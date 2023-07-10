@@ -63,8 +63,7 @@ header{
     justify-content: space-between;
     margin: 40px 0;
 }
-.flower-one{
-    background-color: #F2DEE7;
+.flower{
     height: 400px;
     padding-top: 50px;
     padding-left: 30px;
@@ -72,6 +71,9 @@ header{
     padding-bottom: 0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+.flower-one{
+    background-color: #F2DEE7;
 }
 .flower-one> img{
     width: 300px;
@@ -79,13 +81,6 @@ header{
 }
 .flower-tow{
     background-color: #D9EFF1;
-    height: 400px;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 0;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
 }
 .flower-tow> img{
     width: 300px;
@@ -94,13 +89,6 @@ header{
 
 .flower-three{
     background-color: #E3EBDB;
-    height: 400px;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 0;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
 }
 .flower-three> img{
     width: 300px;
@@ -113,4 +101,46 @@ header{
 }
 .link> span{
     border-bottom: 1px solid black;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background-color: #F4F4F4;
+    padding: 30px 0;
+}
+.contact> div{
+    text-align: center;
+}
+/* section sale pat  */
+.sale-container{
+    background-color: #FCEEF1;
+}
+.sale-up{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px 0;
+}
+.sale-text{
+    width: 60%;
+    text-align: center;
+}
+.sale-text>h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sale-text>p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.sale-img{
+    width: 40%;
+    text-align: center;
+}
+.sale-img>img{
+    width: 200px;
 }
