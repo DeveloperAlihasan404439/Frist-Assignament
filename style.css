@@ -1,35 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
 }
-.container{
+
+.container {
     max-width: 90%;
     margin: auto;
 }
+
 /* header section style pat  */
-header{
+header {
     background-color: #FCEEF1;
 }
-.banner{
+
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.text{
+
+.text {
     width: 50%;
 }
-.text > h1{
+
+.text>h1 {
     font-size: 46px;
     margin-bottom: 10px;
     font-weight: 700;
     padding-bottom: 15px;
 }
-.text > p{
+
+.text>p {
     font-size: 19px;
     padding-bottom: 15px;
 }
-.btn{
+
+.btn {
     margin-top: 5px;
     padding: 10px;
     background-color: #E55473;
@@ -39,31 +46,37 @@ header{
     font-size: 18px;
     box-shadow: 10px 10px 10px 0px #e554738e;
 }
-.images{
+
+.images {
     width: 50%;
     text-align: right;
 }
-.images > img{
+
+.images>img {
     width: 400px;
     height: 500px;
 }
+
 /* main section flowers pat  */
-.flower-text{
+.flower-text {
     text-align: center;
     margin-top: 40px;
 }
-.flower-text> h1{
+
+.flower-text>h1 {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 5px;
 }
-.flowers{
+
+.flowers {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 40px 0;
 }
-.flower{
+
+.flower {
     height: 400px;
     padding-top: 50px;
     padding-left: 30px;
@@ -72,37 +85,46 @@ header{
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
-.flower-one{
+
+.flower-one {
     background-color: #F2DEE7;
 }
-.flower-one> img{
+
+.flower-one>img {
     width: 300px;
     height: 400px;
 }
-.flower-tow{
+
+.flower-tow {
     background-color: #D9EFF1;
 }
-.flower-tow> img{
+
+.flower-tow>img {
     width: 300px;
     height: 350px;
 }
 
-.flower-three{
+.flower-three {
     background-color: #E3EBDB;
 }
-.flower-three> img{
+
+.flower-three>img {
     width: 300px;
     height: 400px;
 }
-.link{
+
+.link {
     text-align: center;
     margin-top: 20px;
     font-size: 17px;
 }
-.link> span{
+
+.link>span {
     border-bottom: 1px solid black;
 }
-.contact{
+
+/* contact section style css  */
+.contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -110,74 +132,115 @@ header{
     background-color: #F4F4F4;
     padding: 30px 0;
 }
-.contact> div{
+
+.contact>div {
     text-align: center;
 }
+
+/* galari section style css  */
+.galari-text{
+    text-align: center;
+    margin: 20px 0;
+}
+.galari-text>h1{
+    margin-bottom: 10px;
+}
+.galari {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.galari-1{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px;
+}
+.galari-1>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 /* section sale pat  */
-.sale-container{
+.sale-container {
     background-color: #FCEEF1;
     margin-bottom: 10px;
 }
-.sale-up{
+
+.sale-up {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
     padding: 40px 0;
 }
-.sale-text{
+
+.sale-text {
     width: 60%;
     text-align: center;
 }
-.sale-text>h1{
+
+.sale-text>h1 {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.sale-text>h1>span{
+
+.sale-text>h1>span {
     color: #E55473;
 }
-.sale-text>p{
+
+.sale-text>p {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.sale-img{
+
+.sale-img {
     width: 40%;
     text-align: center;
 }
-.sale-img>img{
+
+.sale-img>img {
     width: 200px;
 }
+
 /* instagram section pat   */
-.instagram-text{
+.instagram-text {
     text-align: center;
     margin-top: 30px;
     padding: 20px 0;
 }
-.instagram-text>h1{
+
+.instagram-text>h1 {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.instagram-text>p{
+
+.instagram-text>p {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.instagram-img{
+
+.instagram-img {
     display: flex;
     justify-content: space-between;
     gap: 10;
     padding: 20px 0;
 
 }
-.images{
-    box-shadow: 10px 10px 10px 0px  rgba(102, 96, 90, 0.432);
+
+.images-section {
+    box-shadow: 10px 10px 10px 0px rgba(102, 96, 90, 0.432);
 }
-.images>img{
+
+.images-section>img {
     width: 260px;
     height: 280px;
 }
-.latest{
+
+.latest {
     margin: 20px 0;
     background-image: url('./Flower\ Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -188,13 +251,16 @@ header{
     align-items: center;
 
 }
-.latest-pat {
+
+.latst-pat {
     width: 600px;
 }
-.latst{
+
+.latst {
     text-align: center;
 }
-.latst> h1 {
+
+.latst>h1 {
     font-size: 40px;
     margin-bottom: 10px;
     align-items: center;
@@ -204,12 +270,14 @@ header{
     padding-bottom: 30px;
     font-size: 20px;
 }
+
 .input-email {
     display: flex;
     align-items: center;
     gap: 10px;
-    
+
 }
+
 .input-email>input {
     width: 70%;
     padding: 21px;
@@ -219,24 +287,31 @@ header{
     border-left: none;
     border-right: none;
 }
-footer{
+
+/* footer section style css pat  */
+footer {
     background-color: black;
     padding: 30px 0;
 }
-.footer-section{
+
+.footer-section {
     color: white;
     text-align: center;
 }
-.footer-section>h1{
+
+.footer-section>h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
-.footer-section>h1>span{
+
+.footer-section>h1>span {
     color: #E55473;
 }
-.footer-section>h3{
+
+.footer-section>h3 {
     margin-bottom: 20px;
 }
-.footer-section>p{
+
+.footer-section>p {
     color: rgba(255, 255, 255, 0.555);
 }
