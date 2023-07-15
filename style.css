@@ -139,25 +139,29 @@ header {
 }
 
 /* galari section style css  */
-.galari-text{
+.galari-text {
     text-align: center;
     margin: 20px 0;
 }
-.galari-text>h1{
+
+.galari-text>h1 {
     margin-bottom: 10px;
 }
+
 .galari {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-.galari-1{
+
+.galari-1 {
     width: 100%;
     height: 200px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 0px;
 }
-.galari-1>img{
+
+.galari-1>img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -315,4 +319,176 @@ footer {
 
 .footer-section>p {
     color: rgba(255, 255, 255, 0.555);
+}
+
+@media screen and (max-width: 577px) {
+    body {
+        background-color: #0f0d2288;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        /* margin: auto; */
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .text>h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .text>p {
+        font-size: 17px;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .images>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* main section flowers pat  */
+    .flower-text {
+        margin-top: 20px;
+    }
+
+    .flower-text>h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    /* contact section style css  */
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact>div>img {
+        width: 200px;
+    }
+
+    .galari {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* section sale pat  */
+    .sale-up {
+        flex-direction: column-reverse;
+    }
+
+    .sale-text {
+        width: 100%;
+    }
+
+    .sale-text>h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .sale-text>p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .sale-img {
+        width: 100%;
+    }
+
+    .sale-img>img {
+        width: 100%;
+    }
+
+    .flowers {
+        flex-direction: column;
+    }
+
+    .flower {
+        align-items: center;
+        height: auto;
+        padding-right: 20px;
+    }
+
+    .flower-one>img {
+        width: 70%;
+    }
+
+    .flower-tow>img {
+        width: 70%;
+    }
+
+    .flower-three>img {
+        width: 70%;
+    }
+
+    .link {
+        margin: 20px 0;
+    }
+
+    /* instagram section pat   */
+    .instagram-text {
+        color: white;
+    }
+
+    .instagram-text>h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .instagram-text>p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .instagram-img {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .images-section>img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .latest {
+        height: 400px;
+        border-radius: 10px;
+
+    }
+
+    .latst-pat {
+        width: 600px;
+    }
+
+    .input-email {
+        flex-direction: column;
+
+    }
+
+    .footer-section {
+        padding: 10px 20px;
+    }
+    .footer-section>p {
+        color: rgba(138, 138, 138, 0.692);
+    }
+
 }
